@@ -70,8 +70,12 @@ nav{
 nav>a{
     color: white;
     text-decoration: none;
-    padding: 4px;
     font-family: var(--fonte-padrao);
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+
 }
 nav>a:hover{
     background-color: var(--cor3);
