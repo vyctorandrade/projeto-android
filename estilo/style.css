@@ -1,0 +1,207 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family:'Android';
+    src: url('../fontes/idroid.otf');
+    font-weight: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Variáveis */
+:root{
+    --cor0:#cbe9d9;
+    --cor1:#dae7e0;
+    --cor2:#3ddc84;
+    --cor3:#2fa866;
+    --cor4:#1a5c37;
+    --cor5:#063d1e;
+    --cor6:rgb(159, 226, 159);
+
+    --fonte-padrao: Arial, Verdana, Helvetica,  sans-serif;
+    --fonte-destaque:'Bebas Neue', sans-serif;
+    --fonte-android:'Android', 'cursive';
+}
+
+/*corpo*/
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+   
+}
+
+
+/* Cabeçalho */
+header{
+    background-image:linear-gradient(to bottom, var(--cor3), var(--cor5)  ) ;
+    padding: 30px;
+}
+header > h1{
+    color: white;
+    font-family: var(--fonte-destaque);   
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.226);
+    font-weight: normal;
+}
+header > p{
+    color: white;
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    font-size: 15px;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    
+}
+
+
+/* Links */
+nav{
+    background-color: var(--cor5);
+    padding: 6px;
+    box-shadow:0px 7px 7px rgba(0, 0, 0, 0.404);
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: var(--fonte-padrao);
+}
+nav>a:hover{
+    background-color: var(--cor3);
+    padding: 7px;
+    border-radius: 50px;
+    font-weight:bold ;
+    transition-duration: .3s;
+}
+
+/* Conteúdo */
+main{
+    background-color: var(--cor1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+    padding: 15px 10px 30px 10px;
+    margin: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+    
+    min-width: 280px;
+    max-width: 1100px;
+    
+}
+
+
+main h1{
+    color:var(--cor5);
+    font-family: var(--fonte-android);   
+    padding-top: 2px;
+    font-weight: normal;
+    font-size: 25px;
+
+}
+
+main h2{
+    font-family: var(--fonte-android);
+    font-size: 20px;
+    padding: 3px;
+    color: var(--cor5);
+    background-image: linear-gradient(to right, var(--cor3), rgb(205, 255, 217) ) ;
+    margin-top: 15px;
+    font-weight: normal;
+}
+main p{
+    padding-top: 3px;
+    }
+    
+main img{
+    width: 100%;
+    margin-top: 10px;
+}
+main img.pequena{
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+div.video{
+    background-color: var(--cor4);
+    margin: 0px -10px 30px;
+    padding: 23px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+aside{
+    background-color: var(--cor6);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.144);
+    margin-top: 30px;
+}
+
+aside >h3{
+    padding-bottom: 5px;
+    background-color: var(--cor4);
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside>p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type:'✔️' ;
+}
+
+strong{
+    color: var(--cor3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main  a{
+   text-decoration: none; 
+   color: var(--cor3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main a:hover{
+    font-size: 18px;
+    font-weight: bolder;
+}
+p#extra{
+    margin-top: 14px;
+    font-style: italic;
+}
+
+
+
+
+/* Rodapé */
+footer{
+    background-color: var(--cor5);
+    color: white;
+    margin-top: 20px;
+    padding: 7px;
+    text-align: center;
+    font-size: 0.8em;
+}
