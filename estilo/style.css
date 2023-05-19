@@ -38,7 +38,7 @@ body{
 /* Cabeçalho */
 header{
     background-image:linear-gradient(to bottom, var(--cor3), var(--cor5)  ) ;
-    padding: 30px;
+    padding: 25px;
 }
 header > h1{
     color: white;
@@ -72,8 +72,8 @@ nav>a{
     text-decoration: none;
     font-family: var(--fonte-padrao);
     max-width: 600px;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
     margin: auto;
 
 }
