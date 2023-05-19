@@ -47,7 +47,6 @@ header > h1{
     font-size: 40px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.226);
     font-weight: normal;
-    min-width: 280px;
     max-width: 600px;
     margin: auto;
 }
@@ -75,10 +74,9 @@ nav>a{
     text-decoration: none;
     font-weight: bold;
     font-family: var(--fonte-padrao);
-    min-width: 280px;
     max-width: 600px;
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: 1px;
+    padding-right: 4px;
     margin: auto;
 
 
