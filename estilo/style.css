@@ -111,7 +111,7 @@ main h2{
     font-size: 20px;
     padding: 3px;
     color: var(--cor5);
-    background-image: linear-gradient(to right, var(--cor3), rgb(205, 255, 217) ) ;
+    background-image: linear-gradient(to bottom,rgb(204, 252, 215) , var(--cor3) ) ;
     margin-top: 15px;
     font-weight: normal;
 }
